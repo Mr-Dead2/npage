@@ -11,7 +11,7 @@ footer {
     border-radius: 7px;
 }
 
- body {
+body {
     flex-direction: column;
     background-color: #B5C0D0;
 
@@ -40,9 +40,6 @@ h1{
 
   }
 
-li {
-  float: left;
-}
   
 
 
@@ -98,13 +95,23 @@ h2{
   padding: 10px;
 }
 
-#select3{
+#pknr2{
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+  background-color: #dbc1cf;
+  padding: 10px;
+}
+
+
+#h2nr3{
   height: auto;
   width: auto;
   border-radius: 15px;
   background-color: #f5a6d2;
   padding: 10px;
 }
+
 
 img{
   width: 40%;
@@ -113,4 +120,29 @@ img{
   margin-right: auto;
   border-style: double;
   border-color: #000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,td {
+  padding: 8px;
+  border-bottom: 1px solid #fc8bc7;
+  text-align: left;
+}
+
+td{
+  background-color: #CCD3CA;
+}
+th {
+  background-color: #f5a6d2;
+}
+
+
+#test li{
+  padding: auto;
+  margin: 5px;
 }
